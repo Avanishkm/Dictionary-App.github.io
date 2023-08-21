@@ -15,7 +15,9 @@
 body{
     font-family: Arial, sans-serif;
     background-color: var(--bcg-color);
-    width: 100vw;
+    width: 100%;
+    overflow: hidden;
+    
 
 }
 header{
@@ -23,11 +25,20 @@ header{
     padding: var(--padding);
     color: var(--text-color);
     
-}
-header h1{
-    font-size: 36px;
     
 }
+nav h1{
+    font-size: 30px;
+    /* display: inline-block; */
+    padding-bottom: 20px;
+    
+    
+    /* float: left; */
+
+    
+    
+}
+
 
 h2{
     display: flex;
@@ -99,6 +110,10 @@ form button[type="submit"]{
     margin-top: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
 }
+
+
+
+
 
 footer{
     background-color: var(--primary-color);

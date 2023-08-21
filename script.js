@@ -50,7 +50,6 @@ const getWordInfo = async(word)=>{
     } catch (error) {
         resultDiv.innerHTML = `<p>Sorry, the word could not be found</p>` ;  
     }
- 
 }
 
 function switchTab1(event){
